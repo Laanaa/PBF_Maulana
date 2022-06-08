@@ -24,7 +24,6 @@ function App() {
     <AuthContext.Provider value={{ isLoggedIn, setLoggedIn }}>
       Is logged in? {JSON.stringify(isLoggedIn)}
       <div className="App">
-      
         <Router>
           <Header />
 
